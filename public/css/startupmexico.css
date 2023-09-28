@@ -1,0 +1,542 @@
+/*Modificación de botones de guardar*/
+@font-face {
+  font-family: ApexNew;
+  src: url("ApexNew.otf") format("opentype");
+}
+@font-face {
+  font-family: RenaultLight;
+  src: url("RenaultLight.otf") format("opentype");
+}
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    color: #3d5170;
+}
+.content{
+    background: #f5f6f8;
+}
+.btn-send-startupmexico{
+  width: 150px;
+  height: 40px;
+  float: left;
+  margin-right: 20px;
+}
+.centered-text-startupmexico{
+    text-align: center;
+    margin-top: 15px;
+}
+.left-space-startupmexico{
+    margin-left: 20px;
+    float: left;
+}
+.aplic-number-startupmexico{
+    float: left;
+    font-size: 4em;
+}
+.aplic-text-startupmexico{
+    float: left;
+    font-size: 2em;
+    line-height: 3em;
+    margin-left: 20px;
+}
+.no-programs-startupmexico{
+    padding: 15px;
+    background-color: #EEE;
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 100px;
+}
+.no-programs-plus-startupmexico{
+    color: #3d5170;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    text-align: center;
+    font-size: 100px;
+}
+/*Estilos de ficha de programa en dashboard*/
+.program__title{
+    text-align: center;
+    color: #3d5170;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+.program__title:hover {
+    color: #3d5170;
+}
+.panel-default{
+    padding: 10px 15px;
+    border-color: transparent;
+}
+.program__deadline{
+    margin-top: 8px;
+    color: #818ea3;
+    font-size: 0.8em;
+}
+.program__deadline>span{
+    text-align: center;
+}
+.program__status{
+    padding: 2px;
+    color: #3d5170;
+}
+.program__status>span{
+    font-weight: 900;
+    float: right;
+    position: relative;
+    bottom: -21px;
+}
+.subtle-shadow-startupmexico{
+    background-color: white;
+    margin-top: 15px;
+    /*box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);*/
+    min-height: 160px;
+    border-radius: 1rem;
+    box-shadow: 0 2px 0 rgba(90,97,105,.11),0 4px 8px rgba(90,97,105,.12),0 10px 10px rgba(90,97,105,.06),0 7px 70px rgba(90,97,105,.1);
+}
+.program:hover{
+}
+.panel-default:hover{
+    cursor: pointer;
+}
+.subtle-shadow-startupmexico:hover{
+    box-shadow: 0 2px 0 rgba(90,97,105,.21),0 4px 8px rgba(90,97,105,.22),0 10px 10px rgba(90,97,105,.16),0 7px 70px rgba(90,97,105,.11);
+}
+/*Estilos interior programas (Landings, formularios, aplicantes)*/
+.interior-programas-startupmexico .panel{
+    height: 200px;
+}
+.interior-programas-startupmexico .no-programs-plus-startupmexico{
+    font-size: 70px;
+}
+.interior-programas-startupmexico h4{
+    color: #3d5170;
+    padding: 2.5px;
+}
+/*Botones para las tablas*/
+a.btn.btn-xs.btn-info{
+    padding: 6px 12px;
+    font-size: 1em;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    /*margin-top: 10px;*/
+    float: right;
+}
+.btn.btn-xs.btn-danger{
+    padding: 6px 12px;
+    font-size: 1em;
+    border-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+/*  margin-top: 10px;*/
+    float: right;
+}
+/*Modificaciones en pantalla interior del programa*/
+.landing-logo-startupmexico{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 5px 5px 0;
+}
+/*Numeralia en Dashboard*/
+.dashboard-items-startupmexico{
+    text-align: center;
+}
+.dashboard-items-startupmexico span{
+    font-size: 3em;
+    margin-left: 10px;
+    color: #818ea3;
+}
+.dashboard-items-startupmexico p{
+    color: #3d5170;
+}
+.dashboard-items-startupmexico table{
+    color: #818ea3;
+}
+.dashboard-items-startupmexico tr{
+    overflow: hidden;
+    border-bottom: 1px solid #e1e5eb;
+}
+.dashboard-items-startupmexico td{
+    padding: 10px;
+}
+/*Set static top-bar*/
+header.main-header{
+    background-color: white;
+    width: 100%;
+    display: block;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+aside.main-sidebar{
+    position: fixed;
+}
+.page-title h3{
+    -webkit-margin-before: 0em;
+}
+.page-title span{
+    letter-spacing: .125rem;
+    color: #818ea3;
+    font-size: 1rem;
+}
+/*Changing button that hides side menu*/
+.skin-blue .main-header .navbar .sidebar-toggle{
+    color: #3d5170;
+}
+
+.program__status-bar--100{
+    background-color: #4AF2A1;
+    width: calc(100% - 30px);
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 5px;
+}
+.program__status-bar--50{
+    background-color: #D74E84;
+    width: calc(100% - 30px);
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    border-radius: 5px;
+}
+.select-startupmexico{
+    height: 30px;
+    background-color: #FFF ;
+    border-color: #d2d6de;
+    border-radius: 0;
+}
+/*New Dashboard Style*/
+.main-sidebar{
+    padding-top: 0;
+    z-index: 1030;
+    background-color: #FFF;
+    box-shadow: 0 .125rem 9.375rem rgba(90,97,105,.1),0 .25rem .5rem rgba(90,97,105,.12),0 .9375rem 1.375rem rgba(90,97,105,.1),0 .4375rem 2.1875rem rgba(165,182,201,.1);
+}
+.main-sidebar .brand{
+    font-size: 1.3rem;
+    color: rgba(0,0,0,.9)
+}
+.main-sidebar span{
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.main-sidebar i{
+    color: #cacedb;
+    text-align: center;
+    margin-right: 0.375rem;
+}
+.main-sidebar li{
+    white-space: nowrap;
+    min-width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    will-change: background-color,box-shadow,color;
+    transition: box-shadow .2s ease,color .2s ease,background-color .2s ease;
+    border-bottom: 1px solid #e1e5eb;
+    font-weight: 400;
+    padding: .9375rem 1.5625rem;
+}
+.sidebar-menu > li.active{
+  background-color: #fbfbfb !important;
+  box-shadow: inset .3rem 0 0 #007bff;
+}
+.sidebar-menu > li.active > a, .sidebar-menu > li.active > a > i{
+    color: rgb(0, 123, 255) !important;
+}
+.sidebar-menu > li > a{
+    color: #3d5170;
+}
+.main-sidebar > .sidebar >.sidebar-menu > li:hover > a, .main-sidebar > .sidebar >.sidebar-menu > li:hover > a >i{
+    color: rgb(0, 123, 255)
+}
+.main-header .navbar{
+    box-shadow: 0 .125rem .625rem rgba(90,97,105,.12);
+    height: auto;
+}
+.navbar-search-group {
+    position: relative;
+    font-size: 1em;
+    width: 100%;
+    padding: 1em 0 0 3em;
+}
+.navbar-search-group input{
+    border: none;
+    height: 30px;
+}
+.backwards{
+    color: #818ea3;
+}
+.footer{
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid #e1e5eb;
+    margin-top: 20px;
+}
+.footer p{
+    margin: 0 0 0 30px;
+    padding: 20px;
+    color: rgb(0, 123, 255);
+}
+/*Para que el footer se vaya al fondo*/
+.content-wrapper{
+    position: relative;
+    background-color: #f5f6f8;
+}
+
+/*Registro, Login, Landing (By Alexis)*/
+.login .logo {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    padding: 30px;
+    width: 400px;
+    text-align: right;
+}
+.login .logo p {
+    color: white;
+    font-size: 28px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.login .circle {
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    right: -500px;
+    top: -500px;
+    border-radius: 50%;
+}
+.login .logo > img {
+    width: 200px;
+}
+.login .create-account {
+    margin-bottom: 20px;
+}
+.login .title {
+    font-family: ApexNew;
+    font-weight: bold;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.register .title {
+    margin-top: 10px!important;
+}
+.login .create-account p, .login .create-account a {
+    display: inline-block;
+}
+.login .form-input {
+    margin-bottom: 20px;
+}
+.login .form-input input {
+    height: 40px;
+    font-size: 16px;
+}
+.login .form-input .checkbox-input {
+    height: inherit;
+}
+.login .form-horizontal .form-input.checkbox-content {
+    float: right;
+}
+.login .form-input .checkbox,.btn-reset-pass {
+    display: inline-block;
+    font-size: 16px;
+}
+.login .form-input .btn-enter {
+    width: 170px;
+    float: right;
+}
+.login .form-input .btn-enter-big {
+    width: 200px;
+    float: right;
+}
+@media screen and (max-width: 480px) {
+    .login .logo p {
+        display: none;
+    }
+    .login .circle {
+        width: 400px;
+        height: 400px;
+        right: -200px;
+        top: -200px;
+    }
+}
+.landings nav {
+    padding: 15px 0;
+    border-bottom: solid 1px rgba(255,255,255,0.2);
+    position: relative;
+    z-index: 1;
+}
+.landings nav .links a{
+    color: white;
+    font-size: 18px;
+    margin: 0 10px;
+}
+.landings nav img{
+    width: 100px;
+}
+@media screen and (max-width: 480px) {
+    .landings nav .links a{
+        font-size: 15px;
+    }
+    .landings nav img{
+        width: 70px;
+    }
+}
+.landings header {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 340px;
+    margin-top: -58.9px;
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode: multiply;
+    position: relative;
+}
+.landings header .title {
+    color: white;
+    display: inline-block;
+    font-size: 30px;
+}
+.landings header .curve {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    background: #F5F8FA;
+    bottom: -20px;
+    border-radius: 50%;
+}
+.landings .slider-landing {
+    padding: 30px;
+    background: white;
+}
+@media screen and (max-width: 480px) {
+    .landings .slider-landing {
+        padding: 15px;
+    }
+}
+.landings .content-slider-landing {
+    position: sticky;
+    top: 40px;   
+}
+
+.landings .content-landing {
+    padding-right: 50px;
+}
+@media screen and (max-width: 480px) {
+    .landings .content-landing {
+        padding-right: 0;
+    }   
+}
+.landings .content-landing .image-info {
+    margin-top: 30px;
+}
+.landings .content-landing .image-info .image-big {
+    height: 550px;
+}
+@media screen and (max-width: 480px) {
+    .landings .content-landing .image-info .image-big {
+        display: none;
+    }
+}
+.landings .content-landing .image-info .image-small {
+    height: 200px;
+}
+.landings .content-landing .image-info .text-content {
+    padding: 15px;
+    background: white;
+}
+.landings .content-landing .image-info .image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.landings .slider-landing .btn a{
+     color: white;
+     letter-spacing: 0.7px;
+}
+.landings .slider-landing .social-media img{
+    width: 50px;
+}
+.landings .slider-landing .social-media {
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.landings .slider-landing .social-media p {
+    margin-bottom: 0;
+}
+.landings .slider-landing .social-media h4 {
+    margin-bottom: 15px;
+}
+.landings .slider-landing .btn {
+    margin-top: 40px;
+}
+.landings .slider-landing h4 {
+    margin: 0;
+}
+.landings .slider-landing p {
+    margin-bottom: 20px;
+}
+.landings header img {
+    width: 190px;
+    border-radius: 50%;
+    margin-top: 110px;
+}
+@media screen and (max-width: 480px) {
+    .landings header img {
+        width: 120px;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        margin-top: 90px;
+    }
+    .landings header p {
+        display: block!important;
+        text-align: center;
+    }
+}
+.landings .content-body {
+    margin-top: 50px;
+    font-family: ApexNew;
+}
+.landings .content-body h1, .landings .content-body h2, .landings .content-body h3,
+.landings .content-body h4, .landings .content-body h5, .landings .content-body h6 {
+    font-family: ApexNew;
+    color: rgba(0,0,0,0.8);
+}
+.landings .content-body p {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+}
+.landings footer {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 40px 0;
+}
+.landings footer p {
+    margin: 0;
+    color: rgba(255,255,255,0.8);
+    font-size: 18px;
+}
+
+
+
+
+

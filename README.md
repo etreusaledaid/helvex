@@ -19,6 +19,8 @@ Panel de administración y diferentes secciones del sistema.
 	<img src="pantallas/pantalla_3.png" width="200"/>
 	<img src="pantallas/pantalla_4.png" width="200"/>
 	<img src="pantallas/pantalla_5.png" width="200"/>
+</p>
+<p align="center">
 	<img src="pantallas/pantalla_6.png" width="200"/>
 	<img src="pantallas/pantalla_7.png" width="200"/>
 	<img src="pantallas/pantalla_8.png" width="200"/>

@@ -1,5 +1,5 @@
 <header class="main-header">
-  <!-- Logo -->
+<!-- Logo -->
 <!--   <a href="{{ url('http://www.startupmexico.com/') }}" class="logo"
      style="font-size: 25px;">
       mini logo for sidebar mini 50x50 pixels
@@ -11,7 +11,6 @@
         <img style="height: 40px; width: auto;" src="{{ asset('images/atrevete-a-emprender-logo.png') }}">             
       </span>
   </a> -->
-
   <!-- Header Navbar: style can be found in header.less -->
   <!--nav class="navbar navbar-static-top"-->
     <!-- Sidebar toggle button-->
@@ -28,7 +27,5 @@
         <input class="navbar-search" type="text" placeholder="Filtrar por algún valor..." aria-label="Search">
       </div>
     </form>
-
   </nav-->
-
 </header>

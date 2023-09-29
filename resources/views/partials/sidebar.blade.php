@@ -1,7 +1,5 @@
 @inject('request', 'Illuminate\Http\Request')
-<!-- Left side column. contains the sidebar -->
 <aside class="main-sidebar">
-    <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
         <ul class="sidebar-menu">
             <li>
@@ -138,10 +136,6 @@
                 </a>
             </li>
             <li>
-                <!--a href="#logout" onclick="$('#logout').submit();">
-                    <i class="fas fa-lg fa-arrow-left"></i>
-                    <span class="title">@lang('global.app_logout')</span>
-                </a-->
                 <a href="{{ url('helvex/logout')}}">
                     <i class="fas fa-lg fa-times"></i>
                     <span class="title">@lang('global.app_logout')</span>

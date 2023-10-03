@@ -21,7 +21,6 @@
             </div>
         </div>
     </div>
-    <!--a class="btn btn-success" href="{{ url('admin/formularios/store',['idprograma' => $idprograma]) }}">@lang('global.app_save')</a-->
     {!! Form::submit(trans('global.app_create'), ['class' => 'btn btn-success']) !!}
     {!! Form::close() !!}
     <br><br>

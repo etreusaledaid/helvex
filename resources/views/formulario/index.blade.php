@@ -2,7 +2,6 @@
 @extends('layouts.app')
 
 @section('content')
-    <!--a class="btn btn-success" href="{{ url('admin/formularioapp/aplicacion',['idprograma' => $idprograma]) }}">@lang('global.app_add_new')</a-->
     
     {!! Form::open(['method' => 'POST', 'route' => ['admin.formulario.store'], 'id' => 'autoguardado', 'files' => true]) !!}
 

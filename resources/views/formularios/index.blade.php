@@ -7,11 +7,7 @@
         <span class="title">Programa</span>
     </a>
     <h3 class="page-title">@lang('global.formularios.title')</h3>
-
-    <!-- <a class="btn btn-success" href="{{ url('admin/aplicaciones',['id' => $idprograma]) }}">@lang('global.app_return')</a> -->
     <br>
-    <!--a class="btn btn-success" href="{{ url('admin/formularios/create',['idprograma' => $idprograma]) }}">@lang('global.app_add_new')</a-->
-
     {!! Form::open(['method' => 'POST', 'route' => ['admin.formularios.store']]) !!}
     <input class="form-control" type="text" name="idPrograma" value="{{ $idprograma }}" style="display: none;">
     {!! Form::submit(trans('global.app_add_new'), ['class' => 'btn btn-success']) !!}

@@ -14,8 +14,6 @@
         </div>
         <div class="panel-body">
         @foreach ($forms as $form)
-        <!--?php $zip=$form->idRespuestas.",".$idprograma.",".$imagen.",".$idPregunta.",".$usId; ?-->
-        <!--{ !! Form::model($forms, ['method' => 'PUT', 'route' => ['admin.formulario.update', $zip], 'files' => true]) !! }-->
         {!! Form::open(['method' => 'POST', 'route' => ['admin.formulario.updates'], 'files' => true]) !!}
             <div class="row">
                 <div class="col-xs-12 form-group">
